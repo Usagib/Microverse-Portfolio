@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Oswald&display=swap');
 
+a{
+  text-decoration: none;
+  color: purple;
+
+}
+
+a:hover{
+  color: #003366;
+}
+
 body{
   margin: 0;
 }
@@ -73,22 +83,46 @@ body{
 
 #content-1{
   margin:0;
-  background-color: red;
+  background-color: white;
   height: 630px;
 }
 
 #content-2{
   margin:0;
-  background-color: yellow;
+  background-color: black;
   height: 630px;
 }
 
 #content-3{
   margin:0;
-  background-color: green;
+  background-color: purple;
   height: 630px;
 }
 
+.mock-1{
+  position: absolute;
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.mock-img{
+  width: 70%;
+}
+
+.nyt-logo{
+  position: absolute;
+  top: -80px;
+  left: -100px;
+  width: 60%;
+}
+
+.description-1{
+  position: relative;
+  padding-top: 28%;
+  padding-right: 10px;
+  text-align: right;
+}
 /*
 
     font-family: 'Anton', sans-serif;
