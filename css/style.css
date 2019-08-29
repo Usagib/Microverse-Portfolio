@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Oswald&display=swap');
+
+body{
+  margin: 0;
+}
+
+#left-wrapper{
+  position: fixed;
+  width: 40%;
+  height: 100%;
+}
+
+#right-wrapper{
+  position: static;
+  overflow: visible;
+  width: 60%;
+  max-width: 1200px;
+  margin-left: 40%;
+  float: none;
+  clear: none;
+  background-color: red;
+  opacity: .5;
+}
+
+#about-container{
+  position: absolute;
+  margin: 0 10%;
+  bottom: 15%;
+  width: 80%;
+}
+
+.img-logo{
+}
+
+.about-title{
+  font-family: 'Anton', sans-serif;
+  color: #111111;
+  font-size: 50px;
+}
+
+.about-subtitle{
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 12px;
+}
+
+.about-description ul{
+  list-style: none;
+  display: block;
+}
+
+.about-description ul li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.about-icon-container{
+  display: flex;
+  text-align: center;
+}
+
+.about-icon-container div{
+  flex: auto;
+}
+
+.about-icon-container div a img{
+  width: 50%;
+}
+
+.flex-wrapper{
+  display: flex;
+}
+
+/*
+
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Oswald', sans-serif;
+
+*/
