@@ -18,8 +18,6 @@ body{
   margin-left: 40%;
   float: none;
   clear: none;
-  background-color: red;
-  opacity: .5;
 }
 
 #about-container{
@@ -70,6 +68,25 @@ body{
 
 .flex-wrapper{
   display: flex;
+  flex-direction: column;
+}
+
+#content-1{
+  margin:0;
+  background-color: red;
+  height: 630px;
+}
+
+#content-2{
+  margin:0;
+  background-color: yellow;
+  height: 630px;
+}
+
+#content-3{
+  margin:0;
+  background-color: green;
+  height: 630px;
 }
 
 /*
