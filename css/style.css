@@ -89,13 +89,15 @@ body{
 
 #content-2{
   margin:0;
-  background-color: #EEE;
+  background-image: url("../img/mock-02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 630px;
 }
 
 #content-3{
   margin:0;
-  background-color: purple;
+  background-color: white;
   height: 630px;
 }
 
@@ -123,6 +125,44 @@ body{
   padding-right: 10px;
   text-align: right;
 }
+
+.description-2{
+  position: relative;
+  padding-top: 4%;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.about-title-2{
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 50px;
+}
+
+.about-subtitle-2{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 12px;
+}
+
+.mock-img-3{
+  width: 70%;
+}
+
+.apple-logo{
+  position: absolute;
+  width: 10%;
+  right: 10%;
+  margin-top: 3%;
+}
+
+.description-3{
+  position: relative;
+  padding-top: 4%;
+  padding-left: 10px;
+  text-align: left;
+}
+
 /*
 
     font-family: 'Anton', sans-serif;
